@@ -1,0 +1,53 @@
+.newProduct {
+  flex: 4;
+  margin-left: 100px;
+}
+
+.addProductForm {
+  margin-top: 20px;
+}
+
+.addProductItem {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.addProductItem > label {
+  color: #555;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.addProductItem > input,
+.addProductItem > select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.addProductItem > select {
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url('data:image/svg+xml;utf8,<svg fill="gray" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+}
+
+.addProductButton {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.addProductButton:hover {
+  background-color: #0062cc;
+}
